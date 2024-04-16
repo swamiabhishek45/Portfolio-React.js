@@ -29,6 +29,7 @@ function Card(props) {
                     <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
                         {props.T3}
                     </span>
+                    
                 </div>
                 <a href={props.GithubLink} target="_blank">
                     <button

@@ -21,11 +21,11 @@ function Projects() {
                 <div className="flex flex-wrap gap-14 justify-center md:justify-start md:mx-auto py-6 sm:py-0 w-full max-w-screen-lg  dark:bg-gray-800 ">
                     <Card
                         src={Social}
-                        name="Demo Project"
-                        desc="This is simple demo project"
-                        T1="#HTML"
-                        T2="#CSS"
-                        T3="#JavaScript"
+                        name="Netlink - Social Media App"
+                        desc="This project showcases a full stack social media platform. It offers a range of functionalities to enhance user interaction and engagement."
+                        T1="NodeJs"
+                        T2="ExpressJs"
+                        T3="MongoDB"
                         btn="Get Code"
                         LiveLink="https://netlink-slxg.onrender.com/"
                         GithubLink="https://github.com/swamiabhishek45/Social-Media-App"
@@ -34,10 +34,10 @@ function Projects() {
                         // img={P1}
                         src={MernChatApp}
                         name="Demo Project"
-                        desc="This is simple demo project"
-                        T1="#HTML"
-                        T2="#CSS"
-                        T3="#JavaScript"
+                        desc="Chat Bee is chat application build with the power of MERN Stack. This application allows user to chat in real-time communication."
+                        T1="NodeJs"
+                        T2="React"
+                        T3="MongoDB"
                         btn="Get Code"
                         LiveLink=""
                         GithubLink="https://github.com/swamiabhishek45/Chat-Bee-Chat-App"
@@ -46,9 +46,9 @@ function Projects() {
                         src={Blog}
                         name="Demo Project"
                         desc="This is simple demo project"
-                        T1="#HTML"
-                        T2="#CSS"
-                        T3="#JavaScript"
+                        T1="React"
+                        T2="Tailwind CSS"
+                        T3="Appwrite"
                         btn="Get Code"
                         LiveLink="https://mega-blog-project-bice.vercel.app/"
                         GithubLink="https://github.com/swamiabhishek45/MegaBlog-Project"
@@ -57,7 +57,7 @@ function Projects() {
                         src={Soccer}
                         name="Demo Project"
                         desc="This is simple demo project"
-                        T1="#HTML"
+                        T1="JavaScript"
                         T2="#CSS"
                         T3="#JavaScript"
                         btn="Get Code"
