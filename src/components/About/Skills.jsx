@@ -32,3 +32,6 @@ function Skills() {
 }
 
 export default Skills;
+
+
+// https://pm1.aminoapps.com/6679/f1aff75b7d1af3483d60044ef4ebfc1f5295c360_hq.jpg

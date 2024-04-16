@@ -4,7 +4,6 @@ import Footer from "./components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import { ThemeProvider } from "./context/theme";
 import About from "./components/About/About";
-import Education from "./components/About/Qualification";
 
 function Layout() {
   const [themeMode, setThemeMode] = useState("light");

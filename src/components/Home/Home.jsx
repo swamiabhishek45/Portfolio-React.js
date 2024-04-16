@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Type from "./Type";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-4 h-full ">
           <div className="">
             <h3 className="text-orange-700 text-center sm:flex sm:justify-start text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Frontend developer
+              <Type />
             </h3>
 
             <h1 className=" text-5xl sm:text-7xl font-bold mt-4 text-center sm:flex sm:justify-start">
@@ -56,3 +57,4 @@ export default function Home() {
     </div>
   );
 }
+

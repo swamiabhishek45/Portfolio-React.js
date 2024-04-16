@@ -101,7 +101,7 @@ export default function Header() {
                      dark:border-gray-600 sm:dark:hover:bg-gray-900 dark:hover:bg-gray-800 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                   }
                 >
-                  Contact Us
+                  Contact Me
                 </NavLink>
               </li>
               <li className=" invisible md:visible">
