@@ -19,7 +19,7 @@ function PersonalInfo() {
         <img src={Email} alt="email" /> <span>abhishekswami1435@gmail.com</span>
       </div>
       <div className="flex gap-4 text-black dark:text-white ">
-        <img src={Call} alt="call" /> <span>+91 8956008591</span>
+        <img src={Call} alt="call" /> <span>+91 8956XXXXXX</span>
         {/* </div> */}
       </div>
       <div className="flex gap-4 text-black dark:text-white  ">
