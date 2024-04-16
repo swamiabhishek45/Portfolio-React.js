@@ -5,7 +5,7 @@ import Soccer from "../../assets/img/soccer.png";
 import Blog from "../../assets/img/blog.png";
 import Social from '../../assets/img/social.png';
 import Bubble from '../../assets/img/bubble.png';
-// import Chat from '../../assets/img/chatApp.png';
+import Image from '../../assets/img/chatApp.png';
 import Todo from '../../assets/img/todo.png';
 import Spotify from '../../assets/img/spotify.png';
 
@@ -31,7 +31,6 @@ function Projects() {
                         GithubLink="https://github.com/swamiabhishek45/Social-Media-App"
                     />
                     <Card
-                        // img={P1}
                         src={MernChatApp}
                         name="Demo Project"
                         desc="Chat Bee is chat application build with the power of MERN Stack. This application allows user to chat in real-time communication."
@@ -76,7 +75,7 @@ function Projects() {
                         GithubLink="https://github.com/swamiabhishek45/Bubble-Game"
                     />
                     <Card
-                        // src={Chat}
+                        src={Image}
                         name="Demo Project"
                         desc="This is simple demo project"
                         T1="#HTML"
