@@ -5,7 +5,7 @@ import Soccer from "../../assets/img/soccer.png";
 import Blog from "../../assets/img/blog.png";
 import Social from '../../assets/img/social.png';
 import Bubble from '../../assets/img/bubble.png';
-import Image from '../../assets/img/chatApp.png';
+import ChatApp from '../../assets/img/chatapp.png';
 import Todo from '../../assets/img/todo.png';
 import Spotify from '../../assets/img/spotify.png';
 
@@ -75,7 +75,7 @@ function Projects() {
                         GithubLink="https://github.com/swamiabhishek45/Bubble-Game"
                     />
                     <Card
-                        src={Image}
+                        src={ChatApp}
                         name="Demo Project"
                         desc="This is simple demo project"
                         T1="#HTML"
