@@ -23,8 +23,8 @@ function Projects() {
                         src={Social}
                         name="Netlink - Social Media App"
                         desc="This project showcases a full stack social media platform. It offers a range of functionalities to enhance user interaction and engagement."
-                        T1="NodeJs"
-                        T2="ExpressJs"
+                        T1="Node"
+                        T2="Express"
                         T3="MongoDB"
                         btn="Get Code"
                         LiveLink="https://netlink-slxg.onrender.com/"
@@ -34,7 +34,7 @@ function Projects() {
                         src={MernChatApp}
                         name="Chat Bee - Chat Application"
                         desc="Chat Bee is chat application build with the power of MERN Stack. This application allows user to chat in real-time communication."
-                        T1="NodeJs"
+                        T1="Node"
                         T2="React"
                         T3="MongoDB"
                         btn="Get Code"
@@ -89,7 +89,7 @@ function Projects() {
                         src={Todo}
                         name="Add Todo"
                         desc="Created a simple yet efficient to-do website. Storing to-dos locally using localStorage enhances accessibility and persistence."
-                        T1="ReactJs"
+                        T1="React"
                         T2="TailwindCSS"
                         T3="Context API"
                         btn="Get Code"

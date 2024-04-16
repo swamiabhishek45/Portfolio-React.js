@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import XIcon from '../../assets/xicon.svg'
 
 export default function Footer() {
     return (
@@ -67,7 +68,7 @@ export default function Footer() {
                                         className="dark:hover:text-orange-600 hover:text-orange-600"
                                         target="_blank"
                                     >
-                                        Twitter
+                                        X
                                     </Link>
                                 </li>
                             </ul>
@@ -110,7 +111,7 @@ export default function Footer() {
                         . All Rights Reserved.
                     </span>
                     <div className="flex mt-4 justify-center space-x-5 sm:justify-center sm:mt-0">
-                        <Link
+                        {/* <Link
                             to="https://www.facebook.com/abhishek.swami.31105/"
                             target="_blank"
                             className="text-gray-500 dark:text-white  hover:text-orange-600 dark:hover:text-orange-600"
@@ -144,13 +145,13 @@ export default function Footer() {
                                 <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
                             </svg>
                             <span className="sr-only">Discord community</span>
-                        </Link>
+                        </Link> */}
                         <Link
                             to="https://twitter.com/swamiabhishek45"
                             target="_blank"
                             className="text-gray-500 dark:text-white hover:text-orange-600 dark:hover:text-orange-600"
                         >
-                            <svg
+                            {/* <svg
                                 className="w-5 h-5"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -162,8 +163,21 @@ export default function Footer() {
                                     d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
                                     clip-rule="evenodd"
                                 />
+                            </svg> */}
+                            <svg
+                                className="w-5 h-5 text-gray-500 dark:text-white hover:text-orange-600"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 512 462.799"
+                            >
+                                <path
+                                    fill="#fff"
+                                    fill-rule="evenodd"
+                                    d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"
+                                    clip-rule="evenodd"
+                                />
                             </svg>
-                            <span className="sr-only">Twitter page</span>
+                            <span className="sr-only">X page</span>
                         </Link>
                         <Link
                             to="https://github.com/swamiabhishek45"
