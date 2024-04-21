@@ -18,7 +18,6 @@ import Education from "./components/About/Qualification.jsx";
 import Skills from "./components/About/Skills.jsx";
 import Qualification from "./components/About/Qualification.jsx";
 import PersonalInfo from "./components/About/PersonalInfo.jsx";
-
 // const router = createBrowserRouter([
 //   {
 //     path: '/',

@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import { ThemeProvider } from "./context/theme";
 import About from "./components/About/About";
+import { Analytics } from "@vercel/analytics/react";
 
 function Layout() {
   const [themeMode, setThemeMode] = useState("light");
@@ -24,14 +25,15 @@ function Layout() {
   }, [themeMode]);
 
   return (
-    <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
-      <Header />
-      <Outlet>
-        <About />
-        <Outlet />
-      </Outlet>
-      <Footer />
-    </ThemeProvider>
+      <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
+          <Header />
+          <Outlet>
+              <About />
+              <Outlet />
+          </Outlet>
+          <Footer />
+          <Analytics />
+      </ThemeProvider>
   );
 }
 

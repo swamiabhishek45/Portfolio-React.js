@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
     "gsap": "^3.12.5",
     "lucide-react": "^0.323.0",
     "react": "^18.2.0",
