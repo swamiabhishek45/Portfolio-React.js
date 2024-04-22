@@ -18,6 +18,10 @@ import Education from "./components/About/Qualification.jsx";
 import Skills from "./components/About/Skills.jsx";
 import Qualification from "./components/About/Qualification.jsx";
 import PersonalInfo from "./components/About/PersonalInfo.jsx";
+
+import 'aos/dist/aos.css'
+import 'remixicon/fonts/remixicon.css'
+
 // const router = createBrowserRouter([
 //   {
 //     path: '/',

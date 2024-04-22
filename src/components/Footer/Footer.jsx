@@ -216,6 +216,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">LinkedIn account</span>
                         </Link>
+                        
                     </div>
                 </div>
             </div>

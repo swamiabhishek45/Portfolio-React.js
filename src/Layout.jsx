@@ -5,6 +5,8 @@ import { Outlet } from "react-router-dom";
 import { ThemeProvider } from "./context/theme";
 import About from "./components/About/About";
 import { Analytics } from "@vercel/analytics/react";
+import Aos from "aos";
+import './App.css';
 
 function Layout() {
   const [themeMode, setThemeMode] = useState("light");
@@ -23,6 +25,11 @@ function Layout() {
     document.querySelector("html").classList.remove("light", "dark");
     document.querySelector("html").classList.add(themeMode);
   }, [themeMode]);
+
+
+  useEffect(()=>{
+    Aos.init();
+  },[]);
 
   return (
       <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
