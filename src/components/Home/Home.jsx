@@ -64,9 +64,9 @@ export default function Home() {
                             </div>
                             {/* Social Icons  */}
                             <div
-                                className="flex items-center justify-center sm:justify-start gap-9 mt-12"
+                                className="flex items-center justify-center sm:justify-start gap-9 mt-10"
                                 data-aos="fade-up"
-                                data-aos-duration="1700"
+                                data-aos-duration="1600"
                             >
                                 <a
                                     href="https://github.com/swamiabhishek45"
@@ -109,7 +109,7 @@ export default function Home() {
                         {/* Hero content right  */}
                         <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-2 md:mt-0 md:flex-col md:justify-end md:text-end">
                             <div className="mb-10">
-                                <h2 className="font-[700] text-[32px]">
+                                <h2 className="font-[700] text-[32px] ">
                                     <CountUp
                                         start={0}
                                         end={2}
