@@ -99,6 +99,8 @@ export default function Home() {
                         <div className="basis-1/3 mt-10 sm:mt-0">
                             <figure className="flex items-center justify-center">
                                 <img
+                                    data-aos="fade-up"
+                                    data-aos-duration="1500"
                                     src={Hero}
                                     alt=""
                                 />
