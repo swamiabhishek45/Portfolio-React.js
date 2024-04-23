@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Type from "./Type";
 import CountUp from "react-countup";
+import Hero from './hero.png';
 
 export default function Home() {
     return (
@@ -54,8 +55,10 @@ export default function Home() {
                                         Contact Me
                                     </button>
                                 </Link>
-                                <button className="bg-gray-600 text-white cursor-pointer p-4 px-8  outline-none font-bold rounded-full hover:bg-gray-700 textsm
-                                text-sm">
+                                <button
+                                    className="bg-gray-600 text-white cursor-pointer p-4 px-8  outline-none font-bold rounded-full hover:bg-gray-700 textsm
+                                text-sm"
+                                >
                                     Download CV
                                 </button>
                             </div>
@@ -65,13 +68,28 @@ export default function Home() {
                                 data-aos="fade-up"
                                 data-aos-duration="1700"
                             >
-                                <a href="" className="text-[20px] font-[400]">
+                                <a
+                                    href="https://github.com/swamiabhishek45"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-[20px] font-[400]"
+                                >
                                     <i class="ri-github-fill"></i>
                                 </a>
-                                <a href="" className="text-[20px] font-[400]">
+                                <a
+                                    href="https://twitter.com/swamiabhishek45"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-[20px] font-[400]"
+                                >
                                     <i class="ri-twitter-x-line"></i>
                                 </a>
-                                <a href="" className="text-[20px] font-[400]">
+                                <a
+                                    href="https://www.linkedin.com/in/swamiabhishek45/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-[20px] font-[400]"
+                                >
                                     <i class="ri-linkedin-box-fill"></i>
                                 </a>
                             </div>
@@ -81,7 +99,7 @@ export default function Home() {
                         <div className="basis-1/3 mt-10 sm:mt-0">
                             <figure className="flex items-center justify-center">
                                 <img
-                                    src="https://qph.cf2.quoracdn.net/main-qimg-3998f08372833ead5d352f68c52da902.webp"
+                                    src={Hero}
                                     alt=""
                                 />
                             </figure>
