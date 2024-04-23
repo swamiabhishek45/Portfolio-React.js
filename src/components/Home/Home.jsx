@@ -6,7 +6,10 @@ import CountUp from "react-countup";
 export default function Home() {
     return (
         <>
-            <section className="pt-0" id="about">
+            <section
+                className="pt-0 dark:bg-gray-800 dark:text-white"
+                id="about"
+            >
                 <div className="container pt-14">
                     <div className="md:flex items-center justify-between sm: flex-col md:flex-row">
                         {/* Left side */}
@@ -28,7 +31,7 @@ export default function Home() {
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="1700"
-                                className="flex gap-2 font-[500] text-[15px] leading-7  sm:pr-10 text-center sm:text-start"
+                                className="flex gap-2 font-[500] text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-gray-600 dark:text-gray-300"
                             >
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipisicing elit. Asperiores natus sapiente
@@ -44,20 +47,21 @@ export default function Home() {
                                 data-aos="fade-up"
                                 data-aos-duration="1500"
                                 data-aos-delay="200"
-                                className="flex items-center gap-6 mt-7"
+                                className="flex items-center justify-center sm:justify-start gap-6 mt-7"
                             >
                                 <Link to="/contact">
-                                    <button className="bg-orange-600 text-white cursor-pointer p-4 px-8  outline-none rounded-full flex items-center gap-2 hover:bg-orange-700 font-bold">
+                                    <button className="bg-orange-600 text-white cursor-pointer p-4 px-8  outline-none rounded-full flex items-center gap-2 hover:bg-orange-700 font-bold text-sm">
                                         Contact Me
                                     </button>
                                 </Link>
-                                <button className="bg-gray-600 text-white cursor-pointer p-4 px-8  outline-none font-bold rounded-full hover:bg-gray-700 ">
+                                <button className="bg-gray-600 text-white cursor-pointer p-4 px-8  outline-none font-bold rounded-full hover:bg-gray-700 textsm
+                                text-sm">
                                     Download CV
                                 </button>
                             </div>
                             {/* Social Icons  */}
                             <div
-                                className="flex items-center justify-center sm:justify-start gap-9 mt-14"
+                                className="flex items-center justify-center sm:justify-start gap-9 mt-12"
                                 data-aos="fade-up"
                                 data-aos-duration="1700"
                             >
