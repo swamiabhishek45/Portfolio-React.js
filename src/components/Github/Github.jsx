@@ -17,24 +17,31 @@ function Github() {
     return (
         <>
             <div className="dark:bg-gray-800 text-black dark:text-white p-12 text-3xl text-center flex flex-col justify-center items-center gap-4">
-                Github Followers: {data.followers}
+                <div data-aos="fade-down" data-aos-duration="1500">
+                    Github Followers: {data.followers}
+                </div>
                 {/* Github Username: {data.login} */}
                 <img
+                    data-aos="fade-right"
+                    data-aos-duration="1500"
                     src={data.avatar_url}
                     alt="profile pic"
                     width={300}
                     className=""
                 />
-                <div className="bg-gray-400 dark:bg-gray-600 p-8 rounded-md w-full flex justify-center items-center">
-
-                <GitHubCalendar
-                    username="swamiabhishek45"
-                    blockSize={15}
-                    blockMargin={5}
-                    color="#39d353"
-                    fontSize={16}
+                <div
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                    className="bg-gray-400 dark:bg-gray-600 p-8 rounded-md w-full flex justify-center items-center"
+                >
+                    <GitHubCalendar
+                        username="swamiabhishek45"
+                        blockSize={15}
+                        blockMargin={5}
+                        color="#39d353"
+                        fontSize={16}
                     />
-                    </div>
+                </div>
             </div>
         </>
     );

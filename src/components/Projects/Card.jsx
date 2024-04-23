@@ -3,7 +3,11 @@ import { ArrowUpRight } from "lucide-react";
 
 function Card(props) {
     return (
-        <div className="w-[300px] rounded-md border mb-10 dark:border-gray-600">
+        <div
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="w-[300px] rounded-md border mb-10 dark:border-gray-600"
+        >
             <img
                 src={props.src}
                 alt="img"
@@ -29,7 +33,6 @@ function Card(props) {
                     <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[10px] font-semibold text-gray-900">
                         {props.T3}
                     </span>
-                    
                 </div>
                 <a href={props.GithubLink} target="_blank">
                     <button

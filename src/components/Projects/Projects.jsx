@@ -3,11 +3,11 @@ import Card from "./Card";
 import MernChatApp from "../../assets/img/mernChatApp.png";
 import Soccer from "../../assets/img/soccer.png";
 import Blog from "../../assets/img/blog.png";
-import Social from '../../assets/img/social.png';
-import Bubble from '../../assets/img/bubble.png';
-import ChatApp from '../../assets/img/chatapp.png';
-import Todo from '../../assets/img/todo.png';
-import Spotify from '../../assets/img/spotify.png';
+import Social from "../../assets/img/social.png";
+import Bubble from "../../assets/img/bubble.png";
+import ChatApp from "../../assets/img/chatapp.png";
+import Todo from "../../assets/img/todo.png";
+import Spotify from "../../assets/img/spotify.png";
 
 function Projects() {
     return (
@@ -18,7 +18,11 @@ function Projects() {
                         My Projects
                     </h1>
                 </div>
-                <div className="flex flex-wrap gap-14 justify-center md:justify-start md:mx-auto py-6 sm:py-0 w-full max-w-screen-lg  dark:bg-gray-800 ">
+                <div
+                   
+                    className="flex flex-wrap gap-2 sm:gap-14 justify-center md:justify-start md:mx-auto py-6 sm:py-0 w-full max-w-screen-lg  dark:bg-gray-800 "
+                >
+                    
                     <Card
                         src={Social}
                         name="Netlink - Social Media App"
