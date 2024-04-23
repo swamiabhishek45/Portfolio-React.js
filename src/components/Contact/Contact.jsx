@@ -15,8 +15,7 @@ export default function Contact() {
             </h2>
             <div className="container md:flex gap-4 ">
                 <div
-                    data-aos="fade-right"
-                    data-aos-duration="1500"
+                    
                     className="md:flex md:w-1/2 h-[300px] sm:h-[450px]"
                 >
                     <iframe
@@ -32,8 +31,10 @@ export default function Contact() {
                 </div>
 
                 <div
-                    data-aos="fade-left"
-                    data-aos-duration="1500"
+                    
+
+
+                    
                     className="w-full rounded-lg mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-orange-100 px-4 lg:px-8 py-8"
                 >
                     <form className="w-full">
