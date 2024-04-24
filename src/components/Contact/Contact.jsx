@@ -67,7 +67,7 @@ export default function Contact() {
                                 className="w-full p-3 focus:outline-none rounded-[5px]"
                             />
                         </div>
-                        <button className="w-full p-3 focus:outline-none rounded-[5px] bg-orange-500 text-white hover:bg-orange-600 text-center ease-linear duration-150">Send Message</button>
+                        <button className="button-42 w-full">Send Message</button>
                     </form>
                 </div>
             </div>

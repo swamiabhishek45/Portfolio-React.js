@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Type from "./Type";
 import CountUp from "react-countup";
-import Hero from './hero.png';
+import Hero from "./hero.png";
+import Resume from "./Abhishek-Swami-Resume.pdf";
 
 export default function Home() {
     return (
@@ -18,30 +19,28 @@ export default function Home() {
                             <h5
                                 data-aos="fade-right"
                                 data-aos-duration="1500"
-                                className="text-orange-700 text-center sm:flex sm:justify-start text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]"
+                                className="text-[#fd5e2b] text-center sm:flex sm:justify-start text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]"
                             >
                                 <Type />
                             </h5>
                             <h1
                                 data-aos="fade-left"
                                 data-aos-duration="1600"
-                                className="font-[800] text-center sm:text-start text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
+                                className="font-[700] text-center sm:text-start text-[3.5rem] sm:text-[3rem] leading-[60px] sm:leading-[60px] mt-5"
                             >
-                                I'm Swami Abhishek
+                                Hello,my name is <br />
+                                Abhishek Swami
                             </h1>
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="1700"
-                                className="flex gap-2 font-[500] text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-gray-600 dark:text-gray-300"
+                                className="flex gap-2 font-[500] text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-gray-600 dark:text-gray-300 mt-3"
                             >
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Asperiores natus sapiente
-                                nostrum ipsam? Sunt tenetur iusto consequuntur
-                                harum, laborum ducimus corporis fugiat rerum
-                                sint molestias inventore earum dolor nesciunt
-                                sit cum nulla culpa alias odio at porro. Placeat
-                                eaque, accusantium enim distinctio, ipsam non
-                                dicta unde repudiandae nostrum vero rem.
+                                I'm a web designer and front-end developer
+                                focused on crafting clean & user-friendly
+                                experiences, I am passionate about building
+                                excellent software that improves the lives of
+                                those around me.
                             </p>
                             {/* Butttos  */}
                             <div
@@ -51,16 +50,17 @@ export default function Home() {
                                 className="flex items-center justify-center sm:justify-start gap-6 mt-7"
                             >
                                 <Link to="/contact">
-                                    <button className="bg-orange-600 text-white cursor-pointer p-4 px-8  outline-none rounded-full flex items-center gap-2 hover:bg-orange-700 font-bold text-sm">
+                                    <button className="button-87 ">
                                         Contact Me
+                                        <i class="ri-contacts-line ml-2"></i>
                                     </button>
                                 </Link>
-                                <button
-                                    className="bg-gray-600 text-white cursor-pointer p-4 px-8  outline-none font-bold rounded-full hover:bg-gray-700 textsm
-                                text-sm"
-                                >
-                                    Download CV
-                                </button>
+                                <a href={Resume} download={true}>
+                                    <button className="button-87" role="button">
+                                        Download CV
+                                        <i class="ri-download-2-line ml-2"></i>
+                                    </button>
+                                </a>
                             </div>
                             {/* Social Icons  */}
                             <div
@@ -72,7 +72,7 @@ export default function Home() {
                                     href="https://github.com/swamiabhishek45"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[20px] font-[400]"
+                                    className="text-[22px] font-[400]"
                                 >
                                     <i class="ri-github-fill"></i>
                                 </a>
@@ -80,7 +80,7 @@ export default function Home() {
                                     href="https://twitter.com/swamiabhishek45"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[20px] font-[400]"
+                                    className="text-[22px] font-[400]"
                                 >
                                     <i class="ri-twitter-x-line"></i>
                                 </a>
@@ -88,7 +88,7 @@ export default function Home() {
                                     href="https://www.linkedin.com/in/swamiabhishek45/"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[20px] font-[400]"
+                                    className="text-[22px] font-[400]"
                                 >
                                     <i class="ri-linkedin-box-fill"></i>
                                 </a>
