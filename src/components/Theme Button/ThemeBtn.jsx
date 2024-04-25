@@ -1,6 +1,5 @@
 import React from "react";
 import useTheme from "../../context/theme";
-import dark1 from "../../assets/dark1.svg";
 
 export default function ThemeBtn() {
   const { themeMode, lightTheme, darkTheme } = useTheme();

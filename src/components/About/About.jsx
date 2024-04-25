@@ -1,68 +1,105 @@
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
 
-export default function About() {
+function About() {
     return (
-        <div className="py-16 bg-white dark:bg-gray-800 ">
-            <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6 ">
-                <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                    <div className="md:5/12 lg:w-5/12">
-                        <img
-                            src="https://pm1.aminoapps.com/6679/f1aff75b7d1af3483d60044ef4ebfc1f5295c360_hq.jpg"
-                            alt="image"
-                            width={400}
-                        />
-                    </div>
-                    <div className="md:7/12 lg:w-6/12 relative sm:bottom-32 fixed-bottom">
-                        <ul
-                            className={`items-center  justify-center sm:dark:bg-gray-900 xl:bg-white p-1 text-muted-foreground rounded-[30px] dark:md:bg-secondary w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none`}
-                        >
-                            <li>
-                                <NavLink
-                                    to="/about/personal"
-                                    className={({ isActive }) =>
-                                        `${
-                                            isActive
-                                                ? "bg-orange-700 text-white"
-                                                : "to-gray-700"
-                                        } inline-flex items-center justify-center whitespace-nowrap rounded-full px-10 py-1.5 text-base font-medium transition-all h-[48px] w-[162px] xl:w-auto`
-                                    }
-                                >
-                                    Personal Info
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink
-                                    to="/about/qualification"
-                                    className={({ isActive }) => ` ${
-                                        isActive
-                                            ? "bg-orange-700 text-white"
-                                            : "to-gray-700"
-                                    }
-                  inline-flex items-center justify-center whitespace-nowrap rounded-full px-10 py-1.5 text-base font-medium transition-all h-[48px] w-[162px] xl:w-auto`}
-                                >
-                                    Qualifications
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink
-                                    to="/about/skills"
-                                    className={({ isActive }) =>
-                                        ` ${
-                                            isActive
-                                                ? "bg-orange-700 text-white"
-                                                : "to-gray-700"
-                                        } inline-flex items-center justify-center whitespace-nowrap rounded-full px-16 py-1.5 text-base font-medium transition-all h-[48px] w-[162px] xl:w-auto`
-                                    }
-                                >
-                                    Skills
-                                </NavLink>
-                            </li>
-                        </ul>
-                        <Outlet />
+        <section id="services" className="bg-white dark:bg-gray-800">
+            <div className="container lg:pt-5">
+                <div className="text-center">
+                    <h2 className="font-[800] text-[2.4rem] mb-5 dark:text-white ">
+                        What do I help
+                    </h2>
+                    <p className="lg:max-w-[600px] lg:mx-auto font-[500] text-[16px] leading-7 dark:text-white">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Harum mollitia dignissimos necessitatibus commodi
+                        facilis ratione ipsa doloribus animi reiciendis ad.
+                        Deserunt, recusandae officiis quod commodi cupiditate
+                        vitae repudiandae amet dolorum?
+                    </p>
+                </div>
+
+                <div className="flex flex-col justify-center sm:py-12">
+                    <div className="w-full py-3 px-2 sm:max-w-full sm:px-0">
+                        <div className="relative text-gray-700 dark:text-gray-300 antialiased text-sm font-semibold">
+                            {/* Vertical line  */}
+                            <div data-aos="fade-left"
+                                                data-aos-duration="1600" className="hidden absolute w-1 sm:block bg-orange-600 h-full left-1/2 transform -translate-x-1/2"></div>
+
+                            {/* left card  */}
+                            <div className="mt-6 sm:mt-0 sm:mb-12">
+                                <div className="flex items-center flex-col sm:flex-row">
+                                    <div className="flex justify-start w-full mx-auto items-center">
+                                        <div className="w-full sm:w-1/2 sm:pr-8">
+                                            <div
+                                                data-aos="fade-right"
+                                                data-aos-duration="1600"
+                                                className="bg-white dark:bg-gray-700 hover:dark:bg-orange-500 p-4 rounded shadow group hover:bg-orange-500 cursor-pointer ease-in duration-150"
+                                            >
+                                                <h3 className="font-[700] my-3 group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start">
+                                                    Education
+                                                </h3>
+
+                                                <p className="text-[15px] group-hover:text-white leading-7 text-center sm:text-start">
+                                                    Lorem, ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. Totam adipisci modi ab
+                                                    voluptas aperiam, ratione
+                                                    repellendus? Hic nostrum
+                                                    officiis optio!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="rounded-full bg-orange-500 border-white dark:border-gray-800 border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+                                        <figure>
+                                            <i class="ri-graduation-cap-line text-[18px]"></i>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* right card */}
+                            <div className="mt-6 sm:mt-0 sm:mb-12">
+                                <div className="flex items-center flex-col sm:flex-row">
+                                    <div className="flex justify-end w-full mx-auto items-center">
+                                        <div className="w-full sm:w-1/2 sm:pl-8">
+                                            <div
+                                                data-aos="fade-left"
+                                                data-aos-duration="1600"
+                                                className="bg-white p-4 rounded shadow group dark:bg-gray-700 hover:dark:bg-orange-500  hover:bg-orange-500 cursor-pointer ease-in duration-150"
+                                            >
+                                                <h3
+                                                    className="font-[700] my-3
+                                                group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start"
+                                                >
+                                                    Skills
+                                                </h3>
+
+                                                <p className="text-[15px] group-hover:text-white leading-7 text-center sm:text-start">
+                                                    Lorem, ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. Totam adipisci modi ab
+                                                    voluptas aperiam, ratione
+                                                    repellendus? Hic nostrum
+                                                    officiis optio!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="rounded-full bg-orange-500  border-white dark:border-gray-800 border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+                                        <figure>
+                                            <i class="ri-graduation-cap-line text-[18px]"></i>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
+
+export default About;
