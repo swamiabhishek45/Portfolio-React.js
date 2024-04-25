@@ -2,6 +2,8 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
+
+    const year = new Date().getFullYear();
     return (
         <footer className="dark:bg-gray-900 border-t-2 dark:border-0">
             <div className="container p-5">
@@ -31,8 +33,8 @@ export default function Footer() {
                             </span>
 
                             <span
-                                className="w-[35px] h-[35px] 
-                                bg-[#fd5e2b] p-1 rounded-[50px] cursor-pointer text-center"
+                                className="icons w-[35px] h-[35px] bg-slate-700
+                                dark:bg-gray-700 p-1 rounded-[50px] cursor-pointer text-center"
                             >
                                 <a
                                     href="https://github.com/swamiabhishek45"
@@ -42,7 +44,10 @@ export default function Footer() {
                                     <i class="ri-github-line"></i>
                                 </a>
                             </span>
-                            <span className="w-[35px] h-[35px] bg-[#fd5e2b] p-1 rounded-[50px] cursor-pointer text-center">
+                            <span
+                                className="icons w-[35px] h-[35px] bg-slate-700
+                                dark:bg-gray-700 p-1 rounded-[50px] cursor-pointer text-center"
+                            >
                                 <a
                                     href="https://twitter.com/swamiabhishek45"
                                     target="_blank"
@@ -51,7 +56,10 @@ export default function Footer() {
                                     <i class="ri-twitter-x-line"></i>
                                 </a>
                             </span>
-                            <span className="w-[35px] h-[35px] bg-[#fd5e2b] p-1 rounded-[50px] cursor-pointer text-center">
+                            <span
+                                className="icons w-[35px] h-[35px] bg-slate-700
+                                dark:bg-gray-700 p-1 rounded-[50px] cursor-pointer text-center"
+                            >
                                 <a
                                     href="https://www.linkedin.com/in/swamiabhishek45/"
                                     target="_blank"
@@ -60,6 +68,27 @@ export default function Footer() {
                                     <i class="ri-linkedin-line"></i>
                                 </a>
                             </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Footer bottom */}
+            <div className="bg-[#1b1e29] py-5 mt-14">
+                <div className="container">
+                    <div className="flex items-center justify-center sm:justify-between">
+                        <div className="hidden sm:block">
+                            <div className="flex items-center gap-[10px]">
+                                <span className="w-[35px] h-[35px] rounded-full bg-[#2b2d33] text-white font-[500] text-[18px] flex items-center justify-center">AS</span>
+
+
+                                <div className="leading-[20px]">
+                                    <h2 className="text-gray-200 font-[500] text-[18px]">Abhishek Swami</h2>
+                                    <p className="text-gray-500 text-[14px] font-[500]">Personal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p className="text-gray-300 text-[14px]">Copyright {year} developed by Abhishek - All right reserved.</p>
                         </div>
                     </div>
                 </div>

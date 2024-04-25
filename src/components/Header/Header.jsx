@@ -53,10 +53,11 @@ export default function Header() {
                     </span>
 
                     <div
-                        className=" sm:hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1 "
+                        className="menu  sm:hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1 "
                         id="mobile-menu-2 "
                     >
                         <ul
+                            onClick={() => setOpen(!open)}
                             className={`flex flex-col md:mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0       md:flex md:item-center md:pb-0 pb-12 absolute md:static  dark:text-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-7 transition-all md:transition-none duration-500  ease-in ${
                                 open ? "top-16" : "top-[-490px]"
                             }`}

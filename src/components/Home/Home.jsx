@@ -26,7 +26,7 @@ export default function Home() {
                             <h1
                                 data-aos="fade-left"
                                 data-aos-duration="1600"
-                                className="font-[700] text-center sm:text-start text-[3.5rem] sm:text-[3rem] leading-[60px] sm:leading-[60px] mt-5"
+                                className="font-[700] text-center sm:text-start text-[2.5rem] sm:text-[3rem] leading-[60px] sm:leading-[60px] mt-5"
                             >
                                 Hello,my name is <br />
                                 Abhishek Swami
