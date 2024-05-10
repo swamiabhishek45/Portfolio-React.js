@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <section id="services" className="bg-white dark:bg-gray-800">
+        <section id="services" className="bg-white dark:bg-[#0e1630]">
             <div className="container lg:pt-5">
                 <div className="text-center">
                     <h2 className="font-[800] text-[2.4rem] mb-5 dark:text-white ">
@@ -67,7 +67,7 @@ function About() {
                                         </div>
                                     </div>
 
-                                    <div className="rounded-full bg-orange-500 border-white dark:border-gray-800 border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+                                    <div className="rounded-full bg-orange-500 border-white dark:border-[#0e1630] border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
                                         <figure>
                                             <i class="ri-account-circle-fill text-[18px]"></i>
                                         </figure>
@@ -99,7 +99,7 @@ function About() {
                                         </div>
                                     </div>
 
-                                    <div className="rounded-full bg-orange-500  border-white dark:border-gray-800 border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+                                    <div className="rounded-full bg-orange-500  border-white dark:border-[#0e1630] border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
                                         <figure>
                                             <i class="ri-building-2-fill text-[18px]"></i>
                                         </figure>
@@ -170,7 +170,7 @@ function About() {
                                         </div>
                                     </div>
 
-                                    <div className="rounded-full bg-orange-500 border-white dark:border-gray-800 border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+                                    <div className="rounded-full bg-orange-500 border-white dark:border-[#0e1630] border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
                                         <figure>
                                             <i class="ri-graduation-cap-fill text-[18px]"></i>
                                         </figure>
@@ -233,7 +233,7 @@ function About() {
                                         </div>
                                     </div>
 
-                                    <div className="rounded-full bg-orange-500  border-white dark:border-gray-800 border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+                                    <div className="rounded-full bg-orange-500  border-white dark:border-[#0e1630] border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
                                         <figure>
                                             <i class="ri-code-s-slash-line text-[18px]"></i>
                                         </figure>

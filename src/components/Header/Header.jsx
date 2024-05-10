@@ -24,14 +24,14 @@ export default function Header() {
         <header
             className={`${
                 header
-                    ? " bg-white dark:bg-gray-900 shadow-lg dark:bg-accent"
-                    : "  dark:bg-gray-800"
+                    ? " bg-white dark:bg-[#080c1a] shadow-lg dark:bg-accent"
+                    : "  dark:bg-[#0e1630]"
             } sticky top-0 z-50 transition-all `}
         >
             <nav className=" border-gray-200 px-4 lg:px-6 py-2.5 ">
-                <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <div className="flex flex-wrap justify-between items-center md:mx-40 mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
-                        <h1 className="mr-3 h-12 text-3xl text-[#fd5e2b] font-bold">
+                        <h1 className="mr-3 h-12 text-3xl text-[#ca6202] font-bold">
                             Abhishek.
                         </h1>
                     </Link>
@@ -58,7 +58,7 @@ export default function Header() {
                     >
                         <ul
                             onClick={() => setOpen(!open)}
-                            className={`flex flex-col md:mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0       md:flex md:item-center md:pb-0 pb-12 absolute md:static  dark:text-white bg-white dark:bg-gray-900 sm:dark:bg-transparent md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-7 transition-all md:transition-none duration-500  ease-in ${
+                            className={`flex flex-col md:mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0       md:flex md:item-center md:pb-0 pb-12 absolute md:static  dark:text-gray-400 bg-white dark:bg-gray-900 sm:dark:bg-transparent md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-7 transition-all md:transition-none duration-500  ease-in ${
                                 open ? "top-16" : "top-[-490px]"
                             }`}
                         >
