@@ -14,6 +14,10 @@ import Contact from "./components/Contact/Contact.jsx";
 import User from "./components/User/User.jsx";
 import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
 import Projects from "./components/Projects/Projects.jsx";
+import Education from "./components/About/Qualification.jsx";
+import Skills from "./components/About/Skills.jsx";
+import Qualification from "./components/About/Qualification.jsx";
+import PersonalInfo from "./components/About/PersonalInfo.jsx";
 
 import 'aos/dist/aos.css'
 import 'remixicon/fonts/remixicon.css'
@@ -45,8 +49,11 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      
+      <Route path="/about" element={<About />}>
+        <Route path="/about/personal" element={<PersonalInfo />} />
+        <Route path="/about/qualification" element={<Qualification />} />
+        <Route path="/about/skills" element={<Skills />} />
+      </Route>
       <Route path="/projects" element={<Projects />} />
       <Route loader={githubInfoLoader} path="github" element={<Github />} />
       <Route path="/contact" element={<Contact />} />
