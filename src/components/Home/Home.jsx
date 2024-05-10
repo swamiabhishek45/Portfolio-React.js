@@ -2,14 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Type from "./Type";
 import CountUp from "react-countup";
-import Hero from "./hero.png";
+import Hero from "./hero.jpg";
 import Resume from "./Abhishek-Swami-Resume.pdf";
+import About from "../About/About";
 
 export default function Home() {
     return (
         <>
             <section
-                className="pt-0 dark:bg-gray-800 dark:text-white"
+                className="pt-0 dark:bg-[#0e1630] dark:text-white"
                 id="about"
             >
                 <div className="container pt-14">
@@ -28,13 +29,39 @@ export default function Home() {
                                 data-aos-duration="1600"
                                 className="font-[700] text-center sm:text-start text-[2.5rem] sm:text-[3rem] leading-[60px] sm:leading-[60px] mt-5"
                             >
-                                Hello,my name is <br />
-                                Abhishek Swami
+                                <div className="flex items-center justify-center sm:justify-start gap-4">
+                                    <div className="w-14 h-[2px] bg-black dark:bg-white"></div>
+                                    Hello,
+                                    <br />
+                                </div>
+                                I'm Abhishek Swami
+                                {/* <div className="flex gap-4">v
+
+                                <div>I'm</div>
+                                <div className="waviy">
+                                    <span style={{ "--i": 1 }}>A</span>
+                                    <span style={{ "--i": 2 }}>b</span>
+                                    <span style={{ "--i": 3 }}>h</span>
+                                    <span style={{ "--i": 4 }}>i</span>
+                                    <span style={{ "--i": 5 }}>s</span>
+                                    <span style={{ "--i": 6 }}>h</span>
+                                    <span style={{ "--i": 7 }}>e</span>
+                                    <span style={{ "--i": 8 }}>k</span>
+                                </div>
+                                <div className="waviy">
+                                    <span style={{ "--i": 9 }}>S</span>
+                                    <span style={{ "--i": 10 }}>w</span>
+                                    <span style={{ "--i": 11 }}>a</span>
+                                    <span style={{ "--i": 12 }}>m</span>
+                                    <span style={{ "--i": 13 }}>i</span>
+                                    
+                                </div>
+                            </div> */}
                             </h1>
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="1700"
-                                className="flex gap-2 font-[500] text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-gray-600 dark:text-gray-300 mt-3"
+                                className="flex gap-2 font-[500] text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-gray-600 dark:text-gray-400 mt-3"
                             >
                                 I'm a web designer and front-end developer
                                 focused on crafting clean & user-friendly
@@ -72,7 +99,7 @@ export default function Home() {
                                     href="https://github.com/swamiabhishek45"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[22px] font-[400]"
+                                    className="text-[22px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
                                 >
                                     <i class="ri-github-fill"></i>
                                 </a>
@@ -80,7 +107,7 @@ export default function Home() {
                                     href="https://twitter.com/swamiabhishek45"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[22px] font-[400]"
+                                    className="text-[22px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
                                 >
                                     <i class="ri-twitter-x-line"></i>
                                 </a>
@@ -88,7 +115,7 @@ export default function Home() {
                                     href="https://www.linkedin.com/in/swamiabhishek45/"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[22px] font-[400]"
+                                    className="text-[22px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
                                 >
                                     <i class="ri-linkedin-box-fill"></i>
                                 </a>
@@ -97,13 +124,15 @@ export default function Home() {
                         {/*====== Left End =========*/}
                         {/* Hero img */}
                         <div className="basis-1/3 mt-10 sm:mt-0">
-                            <figure className="flex items-center justify-center">
+                            <figure className="flex items-center justify-center relative overflow-hidden">
                                 <img
+                                    className="rounded-md w-full h-auto hover:scale-105 transition-transform duration-300"
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
                                     src={Hero}
                                     alt=""
                                 />
+                                <div class="absolute inset-0 bg-orange-500 opacity-0 hover:opacity-25 transition-opacity duration-300 rounded-md"></div>
                             </figure>
                         </div>
                         {/* Hero content right  */}
@@ -164,6 +193,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <About />
         </>
     );
 }
