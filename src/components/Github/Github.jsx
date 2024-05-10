@@ -16,7 +16,7 @@ function Github() {
     // }, []);
     return (
         <>
-            <div className="dark:bg-gray-800 text-black dark:text-white p-12 text-3xl text-center flex flex-col justify-center items-center gap-4">
+            <div className="dark:bg-[#0e1630] text-black dark:text-white p-12 text-3xl text-center flex flex-col justify-center items-center gap-4">
                 <div data-aos="fade-down" data-aos-duration="1500">
                     Github Followers: {data.followers}
                 </div>
