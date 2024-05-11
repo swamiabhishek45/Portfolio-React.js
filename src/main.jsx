@@ -14,7 +14,6 @@ import Contact from "./components/Contact/Contact.jsx";
 import User from "./components/User/User.jsx";
 import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
 import Projects from "./components/Projects/Projects.jsx";
-import Education from "./components/About/Qualification.jsx";
 import Skills from "./components/About/Skills.jsx";
 import Qualification from "./components/About/Qualification.jsx";
 import PersonalInfo from "./components/About/PersonalInfo.jsx";
