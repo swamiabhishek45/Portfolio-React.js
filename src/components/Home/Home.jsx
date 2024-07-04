@@ -5,6 +5,7 @@ import CountUp from "react-countup";
 import Hero from "./hero.jpg";
 import Resume from "./Abhishek-Swami-Resume.pdf";
 import About from "../About/About";
+import { BackgroundGradient } from "../ui/background-gradient";
 
 export default function Home() {
     return (
@@ -123,18 +124,22 @@ export default function Home() {
                         </div>
                         {/*====== Left End =========*/}
                         {/* Hero img */}
+                        <BackgroundGradient className="rounded-[22px] max-w-sm p-1 sm:p-1 bg-white dark:bg-zinc-900">
+
+
                         <div className="basis-1/3 mt-10 sm:mt-0">
                             <figure className="flex items-center justify-center relative overflow-hidden">
                                 <img
-                                    className="rounded-md w-full h-auto hover:scale-105 transition-transform duration-300"
+                                    className="rounded-[22px] w-full h-auto hover:scale-105 transition-transform duration-300"
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
                                     src={Hero}
                                     alt=""
-                                />
-                                <div class="absolute inset-0 bg-orange-500 opacity-0 hover:opacity-25 transition-opacity duration-300 rounded-md"></div>
+                                    />
+                                <div class="absolute inset-0  transition-opacity duration-300 rounded-md"></div>
                             </figure>
                         </div>
+                                    </BackgroundGradient>
                         {/* Hero content right  */}
                         <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-2 md:mt-0 md:flex-col md:justify-end md:text-end">
                             <div className="mb-10">
