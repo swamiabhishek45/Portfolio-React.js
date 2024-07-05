@@ -130,7 +130,7 @@ export default function Home() {
                         <div className="basis-1/3 mt-10 sm:mt-0">
                             <figure className="flex items-center justify-center relative overflow-hidden">
                                 <img
-                                    className="rounded-[22px] w-full h-auto hover:scale-105 transition-transform duration-300"
+                                    className="rounded-[22px] w-full h-full hover:scale-105 transition-transform duration-300"
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
                                     src={Hero}
