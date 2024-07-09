@@ -9,11 +9,10 @@ function About() {
                         About Me
                     </h2>
                     <p className="lg:max-w-[600px] lg:mx-auto font-[500] text-[16px] leading-7 dark:text-white">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Harum mollitia dignissimos necessitatibus commodi
-                        facilis ratione ipsa doloribus animi reiciendis ad.
-                        Deserunt, recusandae officiis quod commodi cupiditate
-                        vitae repudiandae amet dolorum?
+                        Basically, it's all about learning and experience. Hi, I
+                        am Abhishek. I like to learn from
+                        different people and I respect everyone's opinion. And
+                        playing chess is my favorite hobby.
                     </p>
                 </div>
 

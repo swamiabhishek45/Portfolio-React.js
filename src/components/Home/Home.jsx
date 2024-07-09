@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="container pt-14">
                     <div className="md:flex items-center justify-between sm: flex-col md:flex-row">
                         {/* Left side */}
-                        <div className="w-full md:basis-1/2">
+                        <div className="w-full md:basis-1/2 mb-10">
                             <h5
                                 data-aos="fade-right"
                                 data-aos-duration="1500"
@@ -64,7 +64,7 @@ export default function Home() {
                                 data-aos-duration="1700"
                                 className="flex gap-2 font-[500] text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-gray-600 dark:text-gray-400 mt-3"
                             >
-                                I'm a web designer and front-end developer
+                                I'm a web designer and full-stack developer
                                 focused on crafting clean & user-friendly
                                 experiences, I am passionate about building
                                 excellent software that improves the lives of
@@ -124,10 +124,10 @@ export default function Home() {
                         </div>
                         {/*====== Left End =========*/}
                         {/* Hero img */}
-                        <BackgroundGradient className="rounded-[22px] max-w-sm p-1 sm:p-1 bg-white dark:bg-zinc-900">
+                        <BackgroundGradient className=" rounded-[22px] max-w-sm p-1 sm:p-1 bg-white dark:bg-zinc-900">
 
 
-                        <div className="basis-1/3 mt-10 sm:mt-0">
+                        <div className="basis-1/3">
                             <figure className="flex items-center justify-center relative overflow-hidden">
                                 <img
                                     className="rounded-[22px] w-full h-full hover:scale-105 transition-transform duration-300"
