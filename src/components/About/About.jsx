@@ -10,9 +10,9 @@ function About() {
                     </h2>
                     <p className="lg:max-w-[600px] lg:mx-auto font-[500] text-[16px] leading-7 dark:text-white">
                         Basically, it's all about learning and experience. Hi, I
-                        am Abhishek. I like to learn from
-                        different people and I respect everyone's opinion. And
-                        playing chess is my favorite hobby.
+                        am Abhishek. I like to learn from different people and I
+                        respect everyone's opinion. And playing chess is my
+                        favorite hobby.
                     </p>
                 </div>
 
@@ -32,10 +32,10 @@ function About() {
                                                 data-aos-duration="1600"
                                                 className="bg-white dark:bg-gray-700 hover:dark:bg-[#fd7f0b] p-4 rounded shadow group hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
                                             >
+                                                <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
                                                 <h3 className="font-[700] my-3 group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start">
                                                     Personal Info
                                                 </h3>
-
                                                 <div className="text-[15px] flex flex-col gap-4 group-hover:text-white leading-7">
                                                     <div className="flex flex-col gap-2">
                                                         <h1>
@@ -84,6 +84,8 @@ function About() {
                                                 data-aos-duration="1600"
                                                 className="bg-white p-4 rounded shadow group dark:bg-gray-700 hover:dark:bg-[#fd7f0b]  hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
                                             >
+                                                <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
+
                                                 <h3
                                                     className="font-[700] my-3
                                                 group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start"
@@ -115,6 +117,8 @@ function About() {
                                                 data-aos-duration="1600"
                                                 className="bg-white dark:bg-gray-700 hover:dark:bg-[#fd7f0b] p-4 rounded shadow group hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
                                             >
+                                                <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
+
                                                 <h3 className="font-[700] my-3 group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start">
                                                     Education
                                                 </h3>
@@ -187,6 +191,8 @@ function About() {
                                                 data-aos-duration="1600"
                                                 className="bg-white p-4 rounded shadow group dark:bg-gray-700 hover:dark:bg-[#fd7f0b]  hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
                                             >
+                                                <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
+
                                                 <h3
                                                     className="font-[700] my-3
                                                 group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start"

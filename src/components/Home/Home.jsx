@@ -6,6 +6,7 @@ import Hero from "./hero.jpg";
 import Resume from "./Abhishek-Swami-Resume.pdf";
 import About from "../About/About";
 import { BackgroundGradient } from "../ui/background-gradient";
+import { BackgroundBeams } from "../ui/background-beams";
 
 export default function Home() {
     return (
@@ -125,21 +126,19 @@ export default function Home() {
                         {/*====== Left End =========*/}
                         {/* Hero img */}
                         <BackgroundGradient className=" rounded-[22px] max-w-sm p-1 sm:p-1 bg-white dark:bg-zinc-900">
-
-
-                        <div className="basis-1/3">
-                            <figure className="flex items-center justify-center relative overflow-hidden">
-                                <img
-                                    className="rounded-[22px] w-full h-full hover:scale-105 transition-transform duration-300"
-                                    data-aos="fade-up"
-                                    data-aos-duration="1500"
-                                    src={Hero}
-                                    alt=""
+                            <div className="basis-1/3">
+                                <figure className="flex items-center justify-center relative overflow-hidden">
+                                    <img
+                                        className="rounded-[22px] w-full h-full hover:scale-105 transition-transform duration-300"
+                                        data-aos="fade-up"
+                                        data-aos-duration="1500"
+                                        src={Hero}
+                                        alt=""
                                     />
-                                <div class="absolute inset-0  transition-opacity duration-300 rounded-md"></div>
-                            </figure>
-                        </div>
-                                    </BackgroundGradient>
+                                    <div class="absolute inset-0  transition-opacity duration-300 rounded-md"></div>
+                                </figure>
+                            </div>
+                        </BackgroundGradient>
                         {/* Hero content right  */}
                         <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-2 md:mt-0 md:flex-col md:justify-end md:text-end">
                             <div className="mb-10">
@@ -197,6 +196,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <BackgroundBeams />
+
             </section>
             <About />
         </>

@@ -24,8 +24,8 @@ export default function Header() {
         <header
             className={`${
                 header
-                    ? " bg-white dark:bg-[#080c1a] shadow-lg dark:bg-accent"
-                    : "  dark:bg-[#0e1630]"
+                    ? " bg-white dark:bg-[#0e1630] shadow-custom dark:bg-accent"
+                    : "  dark:bg-[#0e1630] "
             } sticky top-0 z-50 transition-all `}
         >
             <nav className=" border-gray-200 px-4 lg:px-6 py-2.5 ">
