@@ -6,7 +6,6 @@ import Hero from "./hero.jpg";
 import Resume from "./Abhishek-Swami-Resume.pdf";
 import About from "../About/About";
 import { BackgroundGradient } from "../ui/background-gradient";
-import { BackgroundBeams } from "../ui/background-beams";
 
 export default function Home() {
     return (
@@ -196,7 +195,6 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <BackgroundBeams />
 
             </section>
             <About />
