@@ -4,7 +4,7 @@ import GitHubCalendar from "react-github-calendar";
 
 function Github() {
     const data = useLoaderData();
-    console.log(data);
+    // console.log(data);
 
     // const [Data, setData] = useState([]);
     // useEffect(() => {

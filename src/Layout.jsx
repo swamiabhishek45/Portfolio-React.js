@@ -9,7 +9,7 @@ import Aos from "aos";
 import './App.css';
 
 function Layout() {
-  const [themeMode, setThemeMode] = useState("light");
+  const [themeMode, setThemeMode] = useState("dark");
 
   const lightTheme = () => {
     setThemeMode("light");

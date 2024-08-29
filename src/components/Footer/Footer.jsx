@@ -2,7 +2,6 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
-
     const year = new Date().getFullYear();
     return (
         <footer className="dark:bg-gray-900 border-t-2 dark:border-0">
@@ -21,15 +20,16 @@ export default function Footer() {
 
                     <div className="w-full sm:w-1/2">
                         <p className="dark:text-gray-300 text-gray-500 leading-7 mt-4 sm:mt-0">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Veniam ut iusto, enim obcaecati eaque officia
-                            culpa tempore ex repellendus? Maiores exercitationem
-                            in magnam, rem hic qui ratione dolor debitis
-                            doloribus.
+                            Thank you for visiting my portfolio! I'm always
+                            eager to collaborate on exciting projects and take
+                            on new challenges. Feel free to connect with me
+                            through LinkedIn, GitHub, or Email to discuss
+                            potential opportunities or just to say hello. Let's
+                            create something amazing together!
                         </p>
                         <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
                             <span className="dark:text-gray-300 font-[600] text-[15px]">
-                                Follow Me:{" "}
+                                Connect with Me:{" "}
                             </span>
 
                             <span
@@ -78,17 +78,25 @@ export default function Footer() {
                     <div className="flex items-center justify-center sm:justify-between">
                         <div className="hidden sm:block">
                             <div className="flex items-center gap-[10px]">
-                                <span className="w-[35px] h-[35px] rounded-full bg-[#2b2d33] text-white font-[500] text-[18px] flex items-center justify-center">AS</span>
-
+                                <span className="w-[35px] h-[35px] rounded-full bg-[#2b2d33] text-white font-[500] text-[18px] flex items-center justify-center">
+                                    AS
+                                </span>
 
                                 <div className="leading-[20px]">
-                                    <h2 className="text-gray-200 font-[500] text-[18px]">Abhishek Swami</h2>
-                                    <p className="text-gray-500 text-[14px] font-[500]">Personal</p>
+                                    <h2 className="text-gray-200 font-[500] text-[18px]">
+                                        Abhishek Swami
+                                    </h2>
+                                    <p className="text-gray-500 text-[14px] font-[500]">
+                                        Personal
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <p className="text-gray-300 text-[14px]">Copyright {year} developed by Abhishek - All right reserved.</p>
+                            <p className="text-gray-300 text-[14px]">
+                                Copyright {year} developed by Abhishek - All
+                                right reserved.
+                            </p>
                         </div>
                     </div>
                 </div>

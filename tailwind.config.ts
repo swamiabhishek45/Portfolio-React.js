@@ -16,6 +16,7 @@ export default {
             },
             animation: {
                 "meteor-effect": "meteor 5s linear infinite",
+                "jump": "jump 1s ease-in-out infinite",
             },
             keyframes: {
                 meteor: {
@@ -28,6 +29,10 @@ export default {
                         transform: "rotate(215deg) translateX(-500px)",
                         opacity: "0",
                     },
+                },
+                jump: {
+                    "0%, 100%": { transform: "translateY(0)" },
+                    "50%": { transform: "translateY(-20px)" },
                 },
             },
         },

@@ -6,12 +6,13 @@ import Hero from "./hero.jpg";
 import Resume from "./Abhishek-Swami-Resume.pdf";
 import About from "../About/About";
 import { BackgroundGradient } from "../ui/background-gradient";
+import Down from "../../assets/down.svg";
 
 export default function Home() {
     return (
         <>
             <section
-                className="pt-0 dark:bg-[#0e1630] dark:text-white"
+                className="relative pt-0 dark:bg-[#0e1630] dark:text-white"
                 id="about"
             >
                 <div className="container pt-14">
@@ -144,39 +145,39 @@ export default function Home() {
                                 <h2 className="font-[700] text-[32px] ">
                                     <CountUp
                                         start={0}
-                                        end={2}
+                                        end={250}
                                         duration={2}
                                         suffix="+"
                                     />
                                 </h2>
                                 <h4 className="font-[600] text-[18px]">
-                                    Years of Experience
+                                    DSA Problems Solved
                                 </h4>
                             </div>
                             <div className="mb-10">
                                 <h2 className="font-[700] text-[32px]">
                                     <CountUp
                                         start={0}
-                                        end={99}
+                                        end={100}
                                         duration={2}
-                                        suffix="%"
+                                        suffix="+"
                                     />
                                 </h2>
                                 <h4 className="font-[600] text-[18px]">
-                                    Success Rate
+                                    Streak Achieved
                                 </h4>
                             </div>
                             <div className="mb-10">
                                 <h2 className="font-[700] text-[32px]">
                                     <CountUp
                                         start={0}
-                                        end={4}
+                                        end={700}
                                         duration={2}
                                         suffix="+"
                                     />
                                 </h2>
                                 <h4 className="font-[600] text-[18px]">
-                                    Happy Clients
+                                    Code Commits
                                 </h4>
                             </div>
                             <div className="mb-10">
@@ -196,6 +197,9 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className="flex justify-center ">
+                    <img src={Down} alt="" className="hidden md:block animate-jump w-10 absolute " />
+                </div>
             </section>
             <About />
         </>
