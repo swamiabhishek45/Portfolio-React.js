@@ -17,7 +17,9 @@ function Card(props) {
                 <h1 className="inline-flex items-center text-lg dark:text-white font-semibold">
                     {props.name} &nbsp;
                     <a href={props.LiveLink} target="_blank">
-                        <ArrowUpRight className="h-4 w-4 cursor-pointer" />
+                        {props.LiveLink && (
+                            <ArrowUpRight className="h-4 w-4 cursor-pointer" />
+                        )}
                     </a>
                 </h1>
                 <p className="mt-3 dark:text-gray-400 text-sm text-gray-600">

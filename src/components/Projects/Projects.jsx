@@ -8,6 +8,9 @@ import Bubble from "../../assets/img/bubble.png";
 import ChatApp from "../../assets/img/chatapp.png";
 import Todo from "../../assets/img/todo.png";
 import Spotify from "../../assets/img/spotify.png";
+import LiveDocs from "../../assets/img/livedocs.png";
+import Giphy from "../../assets/img/giphy.png";
+import LearnNex from "../../assets/img/learnnex.png";
 
 function Projects() {
     return (
@@ -20,6 +23,17 @@ function Projects() {
                 </div>
                 <div className="flex flex-wrap gap-2 sm:gap-14 justify-center md:justify-start md:mx-auto py-6 sm:py-0 w-full max-w-screen-lg  dark:bg-[#0e1630] ">
                     <Card
+                        src={LiveDocs}
+                        name="LiveDocs"
+                        desc="LiveDocs is a clone of Goole Docs. The primary goal is to demonstrate the developer's skills in realtime enviroment that creates a lasting impact."
+                        T1="Next.js"
+                        T2="TypeScript"
+                        T3="LiveBlocks"
+                        btn="Get Code"
+                        LiveLink="https://livedocs45.vercel.app/"
+                        GithubLink="https://github.com/swamiabhishek45/LiveDocs"
+                    />
+                    <Card
                         src={Social}
                         name="Netlink - Social Media App"
                         desc="This project showcases a full stack social media platform. It offers a range of functionalities to enhance user interaction and engagement."
@@ -29,6 +43,28 @@ function Projects() {
                         btn="Get Code"
                         LiveLink="https://netlink-slxg.onrender.com/"
                         GithubLink="https://github.com/swamiabhishek45/Social-Media-App"
+                    />
+                    <Card
+                        src={Giphy}
+                        name="GIPHY Clone"
+                        desc="GIFFEE is a GIPHY clone build using React + Vite, Tailwind CSS"
+                        T1="React"
+                        T2="Tailwind CSS"
+                        T3="GIPHY API"
+                        btn="Get Code"
+                        LiveLink="https://giffee.vercel.app"
+                        GithubLink="https://github.com/swamiabhishek45/GIFFEE"
+                    />
+                    <Card
+                        src={LearnNex}
+                        name="LearnNex - Course Website"
+                        desc="GIFFEE is a GIPHY clone build using React + Vite, Tailwind CSS"
+                        T1="Next.js"
+                        T2="TypeScript"
+                        T3="Aceternity UI"
+                        btn="Get Code"
+                        LiveLink="https://learn-nex.vercel.app/"
+                        GithubLink="https://github.com/swamiabhishek45/learnNex"
                     />
                     <Card
                         src={MernChatApp}
@@ -49,7 +85,7 @@ function Projects() {
                         T2="Tailwind CSS"
                         T3="Appwrite"
                         btn="Get Code"
-                        LiveLink="https://mega-blog-project-bice.vercel.app/"
+                        LiveLink="https://treetoptail.vercel.app/"
                         GithubLink="https://github.com/swamiabhishek45/MegaBlog-Project"
                     />
                     <Card
@@ -104,7 +140,7 @@ function Projects() {
                         T2="CSS"
                         T3="JavaScript"
                         btn="Get Code"
-                        LiveLink=""
+                        LiveLink="https://spotify20-roan.vercel.app/"
                         GithubLink="https://github.com/swamiabhishek45/Spotify-Clone"
                     />
                 </div>
