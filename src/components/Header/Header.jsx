@@ -42,7 +42,7 @@ export default function Header() {
                             src={
                                 open
                                     ? "https://cdn.hugeicons.com/icons/cancel-01-stroke-rounded.svg"
-                                    : "https://cdn.hugeicons.com/icons/hamburger-02-stroke-rounded.svg"
+                                    : "https://img.icons8.com/?size=100&id=16247&format=png&color=000000"
                             }
                             alt="hamburger-02"
                             name="hamburger"

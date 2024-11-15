@@ -24,7 +24,7 @@ function Projects() {
                 <div className="flex flex-wrap gap-2 sm:gap-14 justify-center md:justify-start md:mx-auto py-6 sm:py-0 w-full max-w-screen-lg  dark:bg-[#0e1630] ">
                     <Card
                         src={LiveDocs}
-                        name="LiveDocs"
+                        name="LiveDocs - Web Application"
                         desc="LiveDocs is a clone of Goole Docs. The primary goal is to demonstrate the developer's skills in realtime enviroment that creates a lasting impact."
                         T1="Next.js"
                         T2="TypeScript"
@@ -47,7 +47,7 @@ function Projects() {
                     <Card
                         src={Giphy}
                         name="GIPHY Clone"
-                        desc="GIFFEE is a GIPHY clone build using React + Vite, Tailwind CSS"
+                        desc="GIFFEE is a GIPHY clone build using React + Vite, Tailwind CSS and GIPHY API to fetch data from GIPHY API and display them on the screen."
                         T1="React"
                         T2="Tailwind CSS"
                         T3="GIPHY API"
@@ -58,7 +58,7 @@ function Projects() {
                     <Card
                         src={LearnNex}
                         name="LearnNex - Course Website"
-                        desc="GIFFEE is a GIPHY clone build using React + Vite, Tailwind CSS"
+                        desc=" LearnNex is a course website build with the power of Next.js, TypeScript, and Aceternity UI. It provides a platform for users to learn."
                         T1="Next.js"
                         T2="TypeScript"
                         T3="Aceternity UI"
