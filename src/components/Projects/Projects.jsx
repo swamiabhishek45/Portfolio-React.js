@@ -45,26 +45,15 @@ function Projects() {
                         GithubLink="https://github.com/swamiabhishek45/Social-Media-App"
                     />
                     <Card
-                        src={Giphy}
-                        name="GIPHY Clone"
-                        desc="GIFFEE is a GIPHY clone build using React + Vite, Tailwind CSS and GIPHY API to fetch data from GIPHY API and display them on the screen."
+                        src={Blog}
+                        name="Tree Trop Tales - Blog App"
+                        desc="Developed a Blog Application in which users can post their though, ideas by writing blogs with images. It has authentication functionlity."
                         T1="React"
                         T2="Tailwind CSS"
-                        T3="GIPHY API"
+                        T3="Appwrite"
                         btn="Get Code"
-                        LiveLink="https://giffee.vercel.app"
-                        GithubLink="https://github.com/swamiabhishek45/GIFFEE"
-                    />
-                    <Card
-                        src={LearnNex}
-                        name="LearnNex - Course Website"
-                        desc=" LearnNex is a course website build with the power of Next.js, TypeScript, and Aceternity UI. It provides a platform for users to learn."
-                        T1="Next.js"
-                        T2="TypeScript"
-                        T3="Aceternity UI"
-                        btn="Get Code"
-                        LiveLink="https://learn-nex.vercel.app/"
-                        GithubLink="https://github.com/swamiabhishek45/learnNex"
+                        LiveLink="https://treetoptail.vercel.app/"
+                        GithubLink="https://github.com/swamiabhishek45/MegaBlog-Project"
                     />
                     <Card
                         src={MernChatApp}
@@ -78,15 +67,26 @@ function Projects() {
                         GithubLink="https://github.com/swamiabhishek45/Chat-Bee-Chat-App"
                     />
                     <Card
-                        src={Blog}
-                        name="Tree Trop Tales - Blog App"
-                        desc="Developed a Blog Application in which users can post their though, ideas by writing blogs with images. It has authentication functionlity."
+                        src={LearnNex}
+                        name="LearnNex - Course Website"
+                        desc=" LearnNex is a course website build with the power of Next.js, TypeScript, and Aceternity UI. It provides a platform for users to learn."
+                        T1="Next.js"
+                        T2="TypeScript"
+                        T3="Aceternity UI"
+                        btn="Get Code"
+                        LiveLink="https://learn-nex.vercel.app/"
+                        GithubLink="https://github.com/swamiabhishek45/learnNex"
+                    />
+                    <Card
+                        src={Giphy}
+                        name="GIPHY Clone"
+                        desc="GIFFEE is a GIPHY clone build using React + Vite, Tailwind CSS and GIPHY API to fetch data from GIPHY API and display them on the screen."
                         T1="React"
                         T2="Tailwind CSS"
-                        T3="Appwrite"
+                        T3="GIPHY API"
                         btn="Get Code"
-                        LiveLink="https://treetoptail.vercel.app/"
-                        GithubLink="https://github.com/swamiabhishek45/MegaBlog-Project"
+                        LiveLink="https://giffee.vercel.app"
+                        GithubLink="https://github.com/swamiabhishek45/GIFFEE"
                     />
                     <Card
                         src={Soccer}
@@ -100,15 +100,15 @@ function Projects() {
                         GithubLink="https://github.com/swamiabhishek45/Animating-Website"
                     />
                     <Card
-                        src={Bubble}
-                        name="Bubble Game"
-                        desc="Dive into a world of delightful distraction with our charming bubble game site! Crafted with love using HTML, CSS, and JavaScript"
+                        src={Spotify}
+                        name="Spotify Clone"
+                        desc="This app provides you a smooth experience with responsiveness. It has songs that you like. This app is responsive in small devices also."
                         T1="HTML"
                         T2="CSS"
                         T3="JavaScript"
                         btn="Get Code"
-                        LiveLink="https://bubble-bash-ten.vercel.app/"
-                        GithubLink="https://github.com/swamiabhishek45/Bubble-Game"
+                        LiveLink="https://spotify20-roan.vercel.app/"
+                        GithubLink="https://github.com/swamiabhishek45/Spotify-Clone"
                     />
                     <Card
                         src={ChatApp}
@@ -122,6 +122,17 @@ function Projects() {
                         GithubLink="https://github.com/swamiabhishek45/MysteryMeet-Chat-App"
                     />
                     <Card
+                        src={Bubble}
+                        name="Bubble Game"
+                        desc="Dive into a world of delightful distraction with our charming bubble game site! Crafted with love using HTML, CSS, and JavaScript"
+                        T1="HTML"
+                        T2="CSS"
+                        T3="JavaScript"
+                        btn="Get Code"
+                        LiveLink="https://bubble-bash-ten.vercel.app/"
+                        GithubLink="https://github.com/swamiabhishek45/Bubble-Game"
+                    />
+                    <Card
                         src={Todo}
                         name="Add Todo"
                         desc="Created a simple yet efficient to-do website. Storing to-dos locally using localStorage enhances accessibility and persistence."
@@ -131,17 +142,6 @@ function Projects() {
                         btn="Get Code"
                         LiveLink=""
                         GithubLink="https://github.com/swamiabhishek45/React.js-Learning/tree/main/Projects/10todoContextLocal"
-                    />
-                    <Card
-                        src={Spotify}
-                        name="Spotify Clone"
-                        desc="This app provides you a smooth experience with responsiveness. It has songs that you like. This app is responsive in small devices also."
-                        T1="HTML"
-                        T2="CSS"
-                        T3="JavaScript"
-                        btn="Get Code"
-                        LiveLink="https://spotify20-roan.vercel.app/"
-                        GithubLink="https://github.com/swamiabhishek45/Spotify-Clone"
                     />
                 </div>
             </div>
