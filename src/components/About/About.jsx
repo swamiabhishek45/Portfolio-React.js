@@ -30,13 +30,13 @@ function About() {
                                             <div
                                                 data-aos="fade-right"
                                                 data-aos-duration="1600"
-                                                className="bg-white dark:bg-gray-700 hover:dark:bg-[#fd7f0b] p-4 rounded shadow group hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
+                                                className="bg-white dark:bg-gray-700 hover:dark:bg-[#7d2d12] hover:bg-[#ffedd5]  p-4 rounded shadow group cursor-pointer ease-in duration-150"
                                             >
-                                                <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
-                                                <h3 className="font-[700] my-3 group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start">
+                                                <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent " />
+                                                <h3 className="font-[700] my-3 text-orange-500   text-2xl text-center sm:text-start">
                                                     Personal Info
                                                 </h3>
-                                                <div className="text-[15px] flex flex-col gap-4 group-hover:text-white leading-7">
+                                                <div className="text-[15px] flex flex-col gap-4  leading-7">
                                                     <div className="flex flex-col gap-2">
                                                         <h1>
                                                             <i class="ri-user-fill mr-2"></i>
@@ -82,18 +82,18 @@ function About() {
                                             <div
                                                 data-aos="fade-left"
                                                 data-aos-duration="1600"
-                                                className="bg-white p-4 rounded shadow group dark:bg-gray-700 hover:dark:bg-[#fd7f0b]  hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
+                                                className="bg-white p-4 rounded shadow group dark:bg-gray-700 hover:dark:bg-[#7d2d12] hover:bg-[#ffedd5]  cursor-pointer ease-in duration-150"
                                             >
                                                 <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
 
                                                 <h3
                                                     className="font-[700] my-3
-                                                group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start"
+                                                 text-orange-500 text-2xl text-center sm:text-start"
                                                 >
                                                     Experience
                                                 </h3>
 
-                                                <div className="text-[15px] flex flex-col gap-4 group-hover:text-white leading-7">
+                                                <div className="text-[15px] flex flex-col gap-4  leading-7">
                                                     Comming soon ....
                                                 </div>
                                             </div>
@@ -115,15 +115,15 @@ function About() {
                                             <div
                                                 data-aos="fade-right"
                                                 data-aos-duration="1600"
-                                                className="bg-white dark:bg-gray-700 hover:dark:bg-[#fd7f0b] p-4 rounded shadow group hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
+                                                className="bg-white dark:bg-gray-700 p-4 rounded shadow group hover:dark:bg-[#7d2d12] hover:bg-[#ffedd5] cursor-pointer ease-in duration-150"
                                             >
                                                 <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
 
-                                                <h3 className="font-[700] my-3 group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start">
+                                                <h3 className="font-[700] my-3  text-orange-500  text-2xl text-center sm:text-start">
                                                     Education
                                                 </h3>
 
-                                                <div className="text-[15px] flex flex-col gap-4 group-hover:text-white leading-7">
+                                                <div className="text-[15px] flex flex-col gap-4 leading-7">
                                                     <div className="">
                                                         <h1>
                                                             <i class="ri-graduation-cap-fill mr-2"></i>
@@ -189,18 +189,18 @@ function About() {
                                             <div
                                                 data-aos="fade-left"
                                                 data-aos-duration="1600"
-                                                className="bg-white p-4 rounded shadow group dark:bg-gray-700 hover:dark:bg-[#fd7f0b]  hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
+                                                className="bg-white p-4 rounded shadow group dark:bg-gray-700 hover:dark:bg-[#7d2d12] hover:bg-[#ffedd5]  cursor-pointer ease-in duration-150"
                                             >
                                                 <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
 
                                                 <h3
                                                     className="font-[700] my-3
-                                                group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start"
+                                                 text-orange-500  text-2xl text-center sm:text-start"
                                                 >
                                                     Skills
                                                 </h3>
 
-                                                <div className="text-[15px] flex flex-col gap-4 group-hover:text-white leading-7">
+                                                <div className="text-[15px] flex flex-col gap-4  leading-7">
                                                     <div>
                                                         <h1>
                                                             <i class="ri-contrast-fill mr-2"></i>
