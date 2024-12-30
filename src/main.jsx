@@ -17,6 +17,7 @@ import Projects from "./components/Projects/Projects.jsx";
 import Skills from "./components/About/Skills.jsx";
 import Qualification from "./components/About/Qualification.jsx";
 import PersonalInfo from "./components/About/PersonalInfo.jsx";
+import PlayerProfile from "./components/Chess/PlayerProfile.jsx";
 
 import 'aos/dist/aos.css'
 import 'remixicon/fonts/remixicon.css'
@@ -55,6 +56,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="/projects" element={<Projects />} />
       <Route loader={githubInfoLoader} path="github" element={<Github />} />
+      {/* <Route path="/chess" element={<PlayerProfile username="swamiabhishek483" />} /> */}
       <Route path="/contact" element={<Contact />} />
       <Route path="user/:userid" element={<User />} />
     </Route>

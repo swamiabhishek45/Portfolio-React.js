@@ -117,6 +117,20 @@ export default function Header() {
                                     Github
                                 </NavLink>
                             </li>
+                            {/* <li>
+                                <NavLink
+                                    to="/chess"
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${
+                                            isActive
+                                                ? "text-[#fd5e2b]"
+                                                : "to-gray-700"
+                                        } border-b border-gray-100 hover:bg-gray-50 dark:border-gray-600 lg:hover:bg-transparent lg:border-0 hover:text-[#fd5e2b] lg:p-0`
+                                    }
+                                >
+                                    Chess
+                                </NavLink>
+                            </li> */}
 
                             <li>
                                 <NavLink
