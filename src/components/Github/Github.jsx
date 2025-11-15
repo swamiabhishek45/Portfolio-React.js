@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, Link } from "react-router-dom";
 import GitHubCalendar from "react-github-calendar";
+import OpenSourceSection from "./GithubStreak";
 
 function Github() {
     const data = useLoaderData();
-    // console.log(data);
+    console.log(data);
 
     // const [Data, setData] = useState([]);
     // useEffect(() => {
@@ -15,35 +16,107 @@ function Github() {
     //     });
     // }, []);
     return (
-        <>
-            <div className="dark:bg-[#0e1630] text-black dark:text-white p-12 text-3xl text-center flex flex-col justify-center items-center gap-4">
-                <div data-aos="fade-down" data-aos-duration="1500">
-                    Github Followers: {data.followers}
-                </div>
-                {/* Github Username: {data.login} */}
-                <img
-                    data-aos="fade-right"
-                    data-aos-duration="1500"
-                    src={data.avatar_url}
-                    alt="profile pic"
-                    width={300}
-                    className=""
-                />
-                <div
-                    data-aos="fade-left"
-                    data-aos-duration="1500"
-                    className="bg-gray-400 dark:bg-gray-600 p-8 rounded-md w-full flex justify-center items-center"
-                >
-                    <GitHubCalendar
-                        username="swamiabhishek45"
-                        blockSize={15}
-                        blockMargin={5}
-                        color="#39d353"
-                        fontSize={16}
+        <div className="flex h-screen">
+            {/* Left Section */}
+            <div className="w-1/3 p-4 border-r dark:bg-[#0e1630] border-gray-300">
+                {/* <Github /> */} hihi
+            </div>
+
+            {/* Right Section */}
+            <div className="w-2/3 overflow-y-auto scrollbar-hide p-4 dark:bg-[#0e1630] dark:text-white">
+                <div className="max-w-3xl mx-auto">
+                    <img
+                        src={data.avatar_url}
+                        alt="Profile Banner"
+                        className="rounded-full w-32 mx-auto mb-6"
                     />
+                    <h1 className="text-4xl font-bold text-center mb-2">
+                        {data.name}
+                    </h1>
+                    <p className="text-center text-gray-600">
+                        I work on all things{" "}
+                        <span className="font-semibold">Software</span> at IRIS
+                        Software
+                        <br />
+                        Truly love working on Web
+                    </p>
+
+                    <section className="my-8">
+                        <h2 className="text-xl font-semibold">About</h2>
+                        <p>
+                            Hey there! I'm a software engineer with a knack for
+                            building efficient, intuitive digital experiences
+                            and a passion for turning complex challenges into
+                            elegant solutions. I've had the privilege of working
+                            on projects that make a real difference.
+                        </p>
+                    </section>
+
+                    <section className="my-8">
+                        <h2 className="text-xl font-semibold">Skills</h2>
+                        <div className="flex flex-wrap gap-2 mt-2">
+                            {[
+                                "Java",
+                                "TypeScript",
+                                "React.js",
+                                "Angular",
+                                "Next.js",
+                                "Express.js",
+                                "Spring Boot",
+                                "Redux Toolkit",
+                            ].map((skill) => (
+                                <span
+                                    key={skill}
+                                    className="bg-gray-200 text-black px-3 py-1 rounded-md text-sm"
+                                >
+                                    {skill}
+                                </span>
+                            ))}
+                        </div>
+                    </section>
+
+                    <section className="my-8">
+                        <h2 className="text-xl font-semibold">Experience</h2>
+                        <ul className="mt-4 space-y-4">
+                            {[
+                                {
+                                    company: "IRIS Software Group",
+                                    role: "Software Engineer",
+                                    duration: "Sep 2023 - Present",
+                                },
+                                {
+                                    company: "Capgemini",
+                                    role: "Senior Software Engineer",
+                                    duration: "Mar 2021 - Sep 2023",
+                                },
+                                {
+                                    company: "Sports Vision",
+                                    role: "Software Engineer",
+                                    duration: "Oct 2018 - Feb 2021",
+                                },
+                            ].map((experience) => (
+                                <li
+                                    key={experience.company}
+                                    className="p-4 border rounded-md shadow-sm bg-white"
+                                >
+                                    <h3 className="font-semibold">
+                                        {experience.company}
+                                    </h3>
+                                    <p>{experience.role}</p>
+                                    <p className="text-sm text-gray-500">
+                                        {experience.duration}
+                                    </p>
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+
+                    <section>
+                        <OpenSourceSection />
+                    </section>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
