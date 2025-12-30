@@ -75,42 +75,6 @@ function Github() {
                         </div>
                     </section>
 
-                    <section className="my-8">
-                        <h2 className="text-xl font-semibold">Experience</h2>
-                        <ul className="mt-4 space-y-4">
-                            {[
-                                {
-                                    company: "IRIS Software Group",
-                                    role: "Software Engineer",
-                                    duration: "Sep 2023 - Present",
-                                },
-                                {
-                                    company: "Capgemini",
-                                    role: "Senior Software Engineer",
-                                    duration: "Mar 2021 - Sep 2023",
-                                },
-                                {
-                                    company: "Sports Vision",
-                                    role: "Software Engineer",
-                                    duration: "Oct 2018 - Feb 2021",
-                                },
-                            ].map((experience) => (
-                                <li
-                                    key={experience.company}
-                                    className="p-4 border rounded-md shadow-sm bg-white"
-                                >
-                                    <h3 className="font-semibold">
-                                        {experience.company}
-                                    </h3>
-                                    <p>{experience.role}</p>
-                                    <p className="text-sm text-gray-500">
-                                        {experience.duration}
-                                    </p>
-                                </li>
-                            ))}
-                        </ul>
-                    </section>
-
                     <section>
                         <OpenSourceSection />
                     </section>

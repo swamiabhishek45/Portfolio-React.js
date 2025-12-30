@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Type from "./Type";
 import CountUp from "react-countup";
-import Hero from "./hero.jpg";
+import Hero from "./me.png";
 import Resume from "./Abhishek-Swami-Resume.pdf";
 import About from "../About/About";
 import { BackgroundGradient } from "../ui/background-gradient";

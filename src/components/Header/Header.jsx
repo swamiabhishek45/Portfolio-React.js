@@ -103,7 +103,7 @@ export default function Header() {
                                     My Projects
                                 </NavLink>
                             </li>
-                            <li>
+                            {/* <li>
                                 <NavLink
                                     to="/github"
                                     className={({ isActive }) =>
@@ -116,7 +116,7 @@ export default function Header() {
                                 >
                                     Github
                                 </NavLink>
-                            </li>
+                            </li> */}
                             {/* <li>
                                 <NavLink
                                     to="/chess"
